@@ -1,16 +1,23 @@
-const course = {
-  name: 'JavaScript for Beginners',
-  duration: 3,
-  sections:7
-};
+// let b = [1,2,3,4,5,6,7];
+// for (let element of b){
+//   if (element % 2 === 0){
+//     continue;
+//   }
+//   console.log(element);
+// }
 
-// console.log(course.name)
+let c = { a:1, b:2, c:3, d:4, e:5 ,f:6 }
 
-for (const key in course){
-  console.log(course[key]);
+for (let key in c){
+  if (c[key] % 2 === 0){
+    continue;
+  }
+  console.log(c[key])
 }
 
-let numbers = [0,1,2,3,4,5]
-for(let number of numbers){
-  console.log(number);
+for (let key in c){
+  if (c[key] === 4){
+    break;
+  }
+  console.log(c[key])
 }
