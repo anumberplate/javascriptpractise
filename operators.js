@@ -55,3 +55,9 @@ let f = null;
 const result = f ?? false;
 
 console.log(result);
+
+let userColor = "green";
+let defaultColor = "blue";
+
+const currentColor = userColor||defaultColor;
+console.log(currentColor);
