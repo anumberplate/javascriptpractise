@@ -1,22 +1,9 @@
-let favouriteFruit =  'strawberries';
-let favouriteIceCream = "chocolate";
-let favouriteProgrammingLanguage = 'Javascript';
+let firstName = "Steven";
+console.log(typeof firstName);
 
-let numberOfDonuts = 12;
-let pi = 3.14;
+firstName = 100;
+console.log(typeof firstName);
 
-let veryLargeNumber = 34343534535565363n;
-let lovesCoding = true;
-
-let favouriteColor;
-console.log(favouriteColor);
-
-favouriteFruit = null;
-
-const uniqueKey = Symbol();
-
-let course = {
-  name: 'JavaScript for beginners',
-  hours: 3
-};
+firstName = true;
+console.log(typeof firstName);
 
