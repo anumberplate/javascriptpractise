@@ -1,4 +1,1 @@
-let message = 'Hello!';
-message = 'World!';
-
-console.log(message);
+const COLOR_GREEN  = 'green';
