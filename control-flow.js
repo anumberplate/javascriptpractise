@@ -1,28 +1,20 @@
-let job = 'Software Developer';
+let numbers = [1,2,3,4,5,6,7];
 
-//if (job == 'Software Developer'){
-   // console.log('Writes code');
-//} else if (job == 'Designer'){
-//    console.log('Makes User interfaces');
-//} else if (job == 'Software Developer'){
- //   console.log('Manages and deploys cloud resources');
-//} else{
- //   console.log('Works directly with customers');
-//}
+let idx = 0;
+let lengthOfArray = numbers.length;
 
-switch(job){
-  case 'Software Developer':
-    console.log('Writes code');
-    break;
-  case 'Designer':
-    console.log('Makes User interfaces');
-    break;
-  case 'Cloud Engineer':
-    console.log('Writes code');
-    break;
-  case 'Software Developer':
-    console.log('Writes code');
-    break;
-  default:
-    console.log('Works directly with customers');
+//console.log(numbers[idx++]);
+//console.log(numbers[idx++]);
+//console.log(numbers[idx++]);
+//console.log(numbers[idx++]);
+//console.log(numbers[idx++]);
+//console.log(numbers[idx++]);
+//console.log(numbers[idx]);
+
+// for (let idx = 0; idx < numbers.length; idx++){
+//   console.log(numbers[idx]);
+// }
+
+for (let num = 0; num < 100; num++){
+  console.log(num);
 }
