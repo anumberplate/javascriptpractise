@@ -1,18 +1,5 @@
-person = {
-  name: "Kyle",
-  age: 5,
-  height:180,
+let min = 1;
+let max = 10;
+const randomNumm = Math.round( Math.random() * (max - min) + min );
 
-}
-
-for (let c of Object.keys(person)){
-  console.log(c);
-}
-
-for (let d of Object.values(person)){
-  console.log(d);
-}
-
-for (let e of Object.entries(person)){
-  console.log(e);
-}
+console.log(randomNum);
